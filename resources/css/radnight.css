@@ -1,0 +1,261 @@
+@media (prefers-color-scheme: dark) {
+    *, :after, :before {
+        box-sizing: border-box;
+        border: 0 solid theme('colors.gray.700');
+    }
+
+    body {
+        @apply text-gray-400 bg-gray-850;
+    }
+
+    .outside {
+        @apply bg-gray-800;
+    }
+
+    .outside label {
+        @apply text-gray-400;
+    }
+
+    .global-header {
+        @apply bg-gray-900;
+    }
+
+    .search-input, .input-text {
+        @apply text-gray-200 bg-transparent;
+    }
+
+    .card, .section-builder .section-layout {
+        @apply bg-gray-900;
+    }
+
+    a:not([class^=btn]) {
+        @apply text-gray-300;
+    }
+
+    .data-table tbody tr:hover {
+        @apply bg-gray-700;
+    }
+
+    .nav-main li a {
+        @apply text-gray-400;
+    }
+
+    .nav-main li.current>a {
+        @apply text-gray-200;
+    }
+
+    .nav-main li.current>a i {
+        @apply bg-gray-900;
+    }
+
+    .data-table thead {
+        @apply text-gray-400;
+    }
+
+    .rotating-dots-button:hover {
+        @apply text-gray-200;
+    }
+
+    .bg-white, .hover\:bg-white:hover {
+        background: theme('colors.gray.900') !important;
+    }
+
+    .bg-grey-10, .hover\:bg-grey-10:hover {
+        background: theme('colors.gray.850') !important;
+    }
+
+    .bg-grey-20, .hover\:bg-grey-20:hover {
+        background: theme('colors.gray.800') !important;
+    }
+
+    .bg-grey-30, .hover\:bg-grey-30:hover {
+        background: theme('colors.gray.700') !important;
+    }
+
+    .text-grey-80, .hover\:text-grey-80:hover {
+        color: theme('colors.gray.300') !important;
+    }
+
+    .text-grey-90, .hover\:text-grey-90:hover {
+        color: theme('colors.gray.400') !important;
+    }
+
+    .dropdown-list .popover-content a, .dropdown-list .popover-content button {
+        @apply text-gray-400;
+    }
+
+    .page-tree .page-move {
+        background-color: theme('colors.gray.900');
+        border-radius: 3px 0 0 3px;
+    }
+
+    .page-tree .page-move:hover {
+        background-color: theme('colors.gray.700');
+        border-radius: 3px 0 0 3px;
+    }
+
+    .page-tree .tree-node-inner {
+        @apply bg-gray-900;
+    }
+
+    .page-tree .tree-node-inner:hover {
+        @apply bg-gray-700;
+    }
+
+    .publish-section:not(:empty) {
+        @apply bg-gray-900;
+    }
+
+    .tabs a {
+        @apply border-gray-900 bg-gray-850;
+    }
+
+    .tabs a.active {
+        @apply bg-gray-900;
+    }
+
+    label {
+        @apply text-gray-400;
+    }
+
+    code {
+        color: #f9f2f4;
+        background-color: #c7254e;
+    }
+
+    .input-group .input-text, .input-group input.slug:focus, .input-group input.slug:hover {
+        @apply text-gray-200 bg-transparent border-gray-700;
+    }
+
+    .replicator-fieldtype {
+        @apply bg-gray-850;
+    }
+
+    .replicator-set {
+        @apply bg-gray-800;
+    }
+
+    .replicator-set-header {
+        @apply bg-gray-700;
+    }
+
+    .bard-fixed-toolbar {
+        @apply bg-gray-900;
+    }
+
+    .bard-fixed-toolbar .bard-toolbar-button {
+        @apply text-gray-400;
+    }
+
+    .bard-fixed-toolbar .bard-toolbar-button:hover {
+        @apply bg-gray-800;
+    }
+
+    .bard-fixed-toolbar .bard-toolbar-button.active {
+        @apply text-gray-200 bg-gray-700;
+    }
+
+    .bard-editor {
+        @apply bg-gray-900;
+    }
+
+    .bard-fieldtype .ProseMirror {
+        @apply text-gray-200;
+    }
+
+    .bard-fieldtype .ProseMirror>p {
+        @apply text-gray-200;
+    }
+
+    .bard-footer-toolbar {
+        @apply bg-gray-900;
+    }
+
+    .blueprint-section-field .blueprint-section-field-inner {
+        @apply bg-gray-800;
+    }
+
+    .blueprint-section-import:before {
+        @apply bg-gray-700;
+    }
+
+    .assets-fieldtype .assets-fieldtype-picker {
+        @apply bg-gray-800;
+    }
+
+    .btn:not(.btn-primary) {
+        background: linear-gradient(180deg,theme('colors.gray.700'),theme('colors.gray.800'));
+        border-color: theme('colors.gray.700');
+        color: theme('colors.gray.300');
+    }
+
+    .btn:active:not(:disabled,.btn-primary), .btn:hover:not(:disabled,.btn-primary) {
+        background: linear-gradient(180deg,theme('colors.gray.600'),theme('colors.gray.700'));
+        border-color: theme('colors.gray.700');
+        color: theme('colors.gray.300');
+    }
+
+    .btn-round {
+        background: linear-gradient(180deg,theme('colors.gray.700'),theme('colors.gray.800'));
+        border-color: theme('colors.gray.700');
+    }
+
+    .btn-round:active:not(:disabled), .btn-round:hover:not(:disabled) {
+        background: linear-gradient(180deg,theme('colors.gray.600'),theme('colors.gray.700'));
+        border-color: theme('colors.gray.700');
+    }
+
+    .badge-pill, .badge-pill-sm {
+        @apply bg-gray-800;
+    }
+
+    .data-list-bulk-actions, .mode-grid .data-list-bulk-actions {
+        @apply bg-gray-900;
+    }
+
+    .data-table tbody tr.row-selected {
+        @apply bg-gray-700;
+    }
+
+    .section-fieldtype {
+        @apply bg-gray-850;
+    }
+
+    .vs__dropdown-toggle {
+        @apply text-gray-200;
+    }
+
+    .v-select:not(.vs--unsearchable) .vs__selected-options {
+        @apply text-gray-200 border-gray-700;
+    }
+
+    .vs__open-indicator {
+        color: theme('colors.gray.200') !important;
+        background: theme('colors.gray.800') !important;
+        @apply border-gray-700;
+    }
+
+    .vs__open-indicator svg {
+        color: theme('colors.gray.200') !important;
+    }
+
+    .vs__search, .vs__search:focus {
+        color: theme('colors.gray.200') !important;
+    }
+
+    .vs__dropdown-menu {
+        @apply bg-gray-800;
+    }
+
+    .vs__dropdown-option {
+        @apply text-gray-400;
+    }
+
+    .vs__dropdown-option--highlight {
+        @apply bg-gray-700;
+    }
+
+    .data-list-filter-link.active {
+        @apply text-gray-200;
+    }
+}
