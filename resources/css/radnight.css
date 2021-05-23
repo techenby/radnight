@@ -61,7 +61,7 @@
     }
 
     .bg-grey-10, .hover\:bg-grey-10:hover {
-        background: theme('colors.gray.850') !important;
+        background: theme('colors.gray.800') !important;
     }
 
     .bg-grey-20, .hover\:bg-grey-20:hover {
@@ -107,7 +107,7 @@
     }
 
     .tabs a {
-        @apply border-gray-900 bg-gray-850;
+        @apply border-gray-900 bg-gray-800;
     }
 
     .tabs a.active {
@@ -128,7 +128,7 @@
     }
 
     .replicator-fieldtype {
-        @apply bg-gray-850;
+        @apply bg-gray-800;
     }
 
     .replicator-set {
@@ -218,7 +218,7 @@
     }
 
     .section-fieldtype {
-        @apply bg-gray-850;
+        @apply bg-gray-800;
     }
 
     .vs__dropdown-toggle {
