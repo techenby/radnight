@@ -1,0 +1,19 @@
+{
+    "name": "andymnewhouse/radnight",
+    "autoload": {
+        "psr-4": {
+            "Andymnewhouse\\Radnight\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Radnight",
+            "description": "Radnight addon"
+        },
+        "laravel": {
+            "providers": [
+                "Andymnewhouse\\Radnight\\ServiceProvider"
+            ]
+        }
+    }
+}
