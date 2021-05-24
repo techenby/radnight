@@ -5,6 +5,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [0.1.10] - 2021-05-24
+
+### Fixed
+
+- Vue Modal
+
+---
+
 ## [0.1.9] - 2021-05-24
 
 ### Fixed

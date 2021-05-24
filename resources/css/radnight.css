@@ -457,6 +457,7 @@
     }
 
     .v--modal {
-        @apply bg-gray-900 border border-gray-700;
+        background: theme('colors.gray.900') !important;
+        border: 1 solid theme('colors.gray.700') !important;
     }
 }
