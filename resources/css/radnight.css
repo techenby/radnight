@@ -72,6 +72,10 @@
         background: theme('colors.gray.800') !important;
     }
 
+    .bg-grey-30, .hover\:bg-grey-30:hover {
+        background: theme('colors.gray.700') !important;
+    }
+
     .border-grey-50, .hover\:border-grey-50:hover {
         border-color: theme('colors.gray.700') !important;
     }
