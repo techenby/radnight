@@ -5,6 +5,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [0.1.9] - 2021-05-24
+
+### Fixed
+
+- Resume Your Session modal
+
+---
+
 ## [0.1.8] - 2021-05-23
 
 ### Fixed

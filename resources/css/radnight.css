@@ -456,4 +456,7 @@
         @apply text-gray-400;
     }
 
+    .v--modal {
+        @apply bg-gray-900 border border-gray-700;
+    }
 }
