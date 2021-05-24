@@ -28,7 +28,17 @@
         @apply text-gray-200 bg-transparent;
     }
 
+    .grid-table thead th.grid-drag-handle-header,
+    .grid-table thead th,
+    .grid-table tbody td.drag-handle {
+        @apply text-gray-200 bg-gray-850;
+    }
+
     .table-fieldtype-table .input-text, .table-fieldtype-table input.slug:focus, .table-fieldtype-table input.slug:hover {
+        @apply bg-transparent text-gray-200;
+    }
+
+    .table-fieldtype-table .input-text:focus, .table-fieldtype-table input.slug:focus {
         @apply bg-transparent text-gray-200;
     }
 
@@ -74,6 +84,10 @@
 
     .bg-grey-30, .hover\:bg-grey-30:hover {
         background: theme('colors.gray.700') !important;
+    }
+
+    .border-grey-30, .hover\:border-grey-30:hover {
+        border: theme('colors.gray.700') !important;
     }
 
     .border-grey-50, .hover\:border-grey-50:hover {
@@ -301,6 +315,10 @@
         @apply bg-gray-700;
     }
 
+    .vs__clear {
+        @apply border-gray-700;
+    }
+
     .data-list-filter-link.active {
         @apply text-gray-200;
     }
@@ -351,5 +369,91 @@
         border-color: theme('colors.gray.700');
     }
 
+    .stack-content .bg-white {
+        background-color: theme('colors.gray.800') !important;
+    }
+
+    .filter {
+        @apply bg-gray-700;
+    }
+
+    .filter a.active, .filter a:hover {
+        @apply text-gray-200;
+    }
+
+    .table-fieldtype-table .input-text:focus, .table-fieldtype-table input.slug:focus {
+        @apply bg-transparent;
+    }
+
+    .list-fieldtype li input {
+        @apply bg-transparent;
+    }
+
+    .list-fieldtype li .delete {
+        @apply bg-gray-900;
+    }
+
+    .text-grey-100, .hover\:text-grey-100:hover {
+        color: theme('colors.gray.200') !important;
+    }
+
+    .active.btn-dropdown, .btn-default.active, .btn-default.active:hover, .btn.active, .btn.active:hover {
+        @apply border-gray-600;
+    }
+
+    .item {
+        @apply bg-gray-800;
+    }
+
+    .item .item-move {
+        @apply bg-gray-800;
+    }
+
+    .popover-open .popover-content {
+        @apply border border-gray-700;
+    }
+
+    .pcr-app {
+        @apply bg-gray-800 border border-gray-700 rounded;
+    }
+
+    .pcr-app[data-theme=classic] .pcr-selection .pcr-color-preview:before,
+    .pcr-app[data-theme=classic] .pcr-selection .pcr-color-palette {
+        @apply border border-gray-700;
+    }
+
+    .grid-table thead th.grid-drag-handle-header,
+    .grid-table thead th,
+    .grid-table tbody td.drag-handle {
+        @apply text-gray-200 bg-gray-850;
+    }
+
+    .markdown-fieldtype-wrapper .markdown-toolbar {
+        @apply text-gray-400 bg-gray-900;
+    }
+
+    .markdown-fieldtype-wrapper .markdown-modes button.active {
+        @apply text-gray-200;
+    }
+
+    .markdown-fieldtype-wrapper .markdown-modes button {
+        @apply text-gray-400;
+    }
+
+    .markdown-fieldtype-wrapper .markdown-buttons button {
+        @apply text-gray-400;
+    }
+
+    .markdown-fieldtype-wrapper .markdown-buttons button:hover {
+        @apply bg-gray-800;
+    }
+
+    .markdown-fieldtype-wrapper .CodeMirror {
+        @apply text-gray-200 bg-gray-900;
+    }
+
+    .text-link {
+        @apply text-gray-400;
+    }
 
 }

@@ -5,6 +5,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [0.1.8] - 2021-05-23
+
+### Fixed
+
+- Button group border
+- Color Picker Fieldtype
+- Markdown Fieldtype
+- Entries Fieldtype
+- Grid Fieldtype
+
+---
+
 ## [0.1.7] - 2021-05-23
 
 ### Fixed
