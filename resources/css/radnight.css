@@ -28,6 +28,10 @@
         @apply text-gray-200 bg-transparent;
     }
 
+    .table-fieldtype-table .input-text, .table-fieldtype-table input.slug:focus, .table-fieldtype-table input.slug:hover {
+        @apply bg-transparent text-gray-200;
+    }
+
     .card, .section-builder .section-layout {
         @apply bg-gray-900;
     }
@@ -50,10 +54,6 @@
 
     .nav-main li.current>a i {
         @apply bg-gray-900;
-    }
-
-    .data-table thead {
-        @apply text-gray-400;
     }
 
     .rotating-dots-button:hover {
@@ -243,6 +243,26 @@
         @apply bg-gray-700;
     }
 
+    .data-table thead {
+        @apply text-gray-400;
+    }
+
+    .data-table thead th:hover {
+        @apply text-gray-200;
+    }
+
+    .table-fieldtype-table thead th {
+        @apply text-gray-400 bg-gray-850;
+    }
+
+    .table-fieldtype-table tbody td.table-drag-handle {
+        @apply bg-gray-850;
+    }
+
+    .table-fieldtype-table tbody td.table-drag-handle:hover {
+        @apply bg-gray-800;
+    }
+
     .section-fieldtype {
         @apply bg-gray-800;
     }
@@ -314,10 +334,6 @@
 
     .dropdown-list .popover-content .divider {
         @apply bg-gray-700;
-    }
-
-    .data-table thead th:hover {
-        @apply text-gray-200;
     }
 
     .select-input-container select {
