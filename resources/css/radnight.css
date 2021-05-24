@@ -183,6 +183,12 @@
         @apply bg-gray-800;
     }
 
+    .input-group .input-group-append, .input-group .input-group-item, .input-group .input-group-prepend {
+        background: linear-gradient(180deg,theme('colors.gray.700'),theme('colors.gray.800'));
+        border-color: theme('colors.gray.700');
+        color: theme('colors.gray.300');
+    }
+
     .btn:not(.btn-primary) {
         background: linear-gradient(180deg,theme('colors.gray.700'),theme('colors.gray.800'));
         border-color: theme('colors.gray.700');
@@ -258,4 +264,28 @@
     .data-list-filter-link.active {
         @apply text-gray-200;
     }
+
+    h6 {
+        @apply text-gray-400;
+    }
+
+    .input-group .input-group-append, .input-group .input-group-item, .input-group .input-group-prepend {
+        background: linear-gradient(180deg,theme('colors.gray.700'),theme('colors.gray.800'));
+        border-color: theme('colors.gray.700');
+        color: theme('colors.gray.300');
+    }
+
+    .input-group button.input-group-append:active:not(:disabled), .input-group button.input-group-append:hover:not(:disabled), .input-group button.input-group-item:active:not(:disabled), .input-group button.input-group-item:hover:not(:disabled), .input-group button.input-group-prepend:active:not(:disabled), .input-group button.input-group-prepend:hover:not(:disabled) {
+        background: linear-gradient(180deg,theme('colors.gray.600'),theme('colors.gray.700'));
+        border-color: theme('colors.gray.700');
+    }
+
+    .svg-icon svg {
+        stroke: theme('colors.gray.300') !important;
+    }
+
+    .filter-fields button {
+        @apply text-gray-300;
+    }
+
 }
