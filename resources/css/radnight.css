@@ -68,8 +68,8 @@
         background: theme('colors.gray.800') !important;
     }
 
-    .bg-grey-30, .hover\:bg-grey-30:hover {
-        background: theme('colors.gray.700') !important;
+    .border-grey-50, .hover\:border-grey-50:hover {
+        border-color: theme('colors.gray.700') !important;
     }
 
     .text-grey-80, .hover\:text-grey-80:hover {
@@ -107,7 +107,7 @@
     }
 
     .tabs a {
-        @apply border-gray-900 bg-gray-800;
+        @apply border-gray-700 bg-gray-800;
     }
 
     .tabs a.active {
@@ -287,5 +287,29 @@
     .filter-fields button {
         @apply text-gray-300;
     }
+
+    .dropdown-list .popover-content .divider {
+        @apply bg-gray-700;
+    }
+
+    .data-table thead th:hover {
+        @apply text-gray-200;
+    }
+
+    .select-input-container select {
+        background: linear-gradient(180deg,theme('colors.gray.700'),theme('colors.gray.800'));
+        border-color: theme('colors.gray.700');
+        color: theme('colors.gray.300');
+    }
+
+    .select-input-container .select-input-toggle {
+        @apply text-gray-300;
+    }
+
+    .select-input-container select:active:not(:disabled), .select-input-container select:hover:not(:disabled) {
+        background: linear-gradient(180deg,theme('colors.gray.600'),theme('colors.gray.700'));
+        border-color: theme('colors.gray.700');
+    }
+
 
 }

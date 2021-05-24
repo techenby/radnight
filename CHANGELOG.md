@@ -5,6 +5,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [0.1.3] - 2021-05-23
+
+### Fixed
+
+- Border on Date Input
+- Hover on table head
+- Dropdown divider
+- Select input
+- Tab border color
+
+---
+
 ## [0.1.2] - 2021-05-23
 
 ### Fixed
