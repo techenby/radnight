@@ -24,6 +24,10 @@
         @apply text-gray-200 bg-transparent;
     }
 
+    .grid-fieldtype .textarea-fieldtype textarea {
+        @apply text-gray-200 bg-transparent;
+    }
+
     .card, .section-builder .section-layout {
         @apply bg-gray-900;
     }
@@ -135,7 +139,7 @@
         @apply bg-gray-800;
     }
 
-    .replicator-set-header {
+    .replicator-set-header, .grid-item-header {
         @apply bg-gray-700;
     }
 
@@ -179,7 +183,7 @@
         @apply bg-gray-700;
     }
 
-    .assets-fieldtype .assets-fieldtype-picker {
+    .assets-fieldtype .assets-fieldtype-picker, .video-fieldtype-container {
         @apply bg-gray-800;
     }
 
@@ -209,6 +213,14 @@
     .btn-round:active:not(:disabled), .btn-round:hover:not(:disabled) {
         background: linear-gradient(180deg,theme('colors.gray.600'),theme('colors.gray.700'));
         border-color: theme('colors.gray.700');
+    }
+
+    .btn-flat {
+        @apply text-gray-300 bg-gray-800;
+    }
+
+    .btn-flat.active, .btn-flat:active:not(:disabled), .btn-flat:hover:not(:disabled) {
+        @apply bg-gray-700;
     }
 
     .badge-pill, .badge-pill-sm {

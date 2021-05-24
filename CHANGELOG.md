@@ -5,6 +5,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [0.1.4] - 2021-05-23
+
+### Added
+
+- Flat buttons
+- Video fieldtype
+- Grid header
+- Grid textarea
+
+---
+
 ## [0.1.3] - 2021-05-23
 
 ### Fixed
