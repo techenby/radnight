@@ -35,11 +35,11 @@
     }
 
     .table-fieldtype-table .input-text, .table-fieldtype-table input.slug:focus, .table-fieldtype-table input.slug:hover {
-        @apply bg-transparent text-gray-200;
+        @apply text-gray-200 bg-transparent;
     }
 
     .table-fieldtype-table .input-text:focus, .table-fieldtype-table input.slug:focus {
-        @apply bg-transparent text-gray-200;
+        @apply text-gray-200 bg-transparent;
     }
 
     .card, .section-builder .section-layout {
@@ -72,6 +72,11 @@
 
     .bg-white, .hover\:bg-white:hover {
         background: theme('colors.gray.900') !important;
+    }
+
+    .bg-blue-100, .hover\:bg-blue-100:hover {
+        background: #001e39 !important;
+        color: theme('colors.gray.200');
     }
 
     .bg-grey-10, .hover\:bg-grey-10:hover {
@@ -133,11 +138,16 @@
     }
 
     .tabs a {
-        @apply border-gray-700 bg-gray-800;
+        @apply bg-gray-800 border-gray-700 shadow-light-sm;
+        /* box-shadow: 0 0 0 1px rgba(49,49,93,.05),0 2px 5px 0 rgba(49,49,93,.075),0 1px 3px 0 rgba(49,49,93,.15); */
     }
 
     .tabs a.active {
-        @apply bg-gray-900;
+        @apply bg-gray-900 border-l-0 border-r-0;
+    }
+
+    .replicator-set-body {
+        @apply border border-gray-700 shadow-light;
     }
 
     label {
@@ -319,6 +329,18 @@
         @apply border-gray-700;
     }
 
+    .vs--single.vs--unsearchable .vs__selected-options {
+        background: linear-gradient(180deg,theme('colors.gray.700'),theme('colors.gray.800'));
+        border-color: theme('colors.gray.700');
+        color: theme('colors.gray.300');
+    }
+
+    .vs--single.vs--unsearchable .vs__selected-options:hover {
+        background: linear-gradient(180deg,theme('colors.gray.600'),theme('colors.gray.700'));
+        border-color: theme('colors.gray.700');
+        color: theme('colors.gray.200');
+    }
+
     .data-list-filter-link.active {
         @apply text-gray-200;
     }
@@ -459,5 +481,21 @@
     .v--modal {
         background: theme('colors.gray.900') !important;
         border: 1 solid theme('colors.gray.700') !important;
+    }
+
+    .bg-checkerboard {
+        background: url(../img/trans-bg-dark.gif);
+    }
+
+    .asset-tile .asset-thumb .svg-img, .asset-tile .asset-thumb img {
+        border-color: theme('colors.gray.700');
+    }
+
+    .asset-grid-listing {
+        @apply bg-transparent;
+    }
+
+    .video-fieldtype .video-preview {
+        @apply bg-gray-900;
     }
 }

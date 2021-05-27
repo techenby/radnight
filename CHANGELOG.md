@@ -5,6 +5,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.0] - 2021-05-27
+
+Switching to v1 so composer won't need to be updated as frequently.
+
+### Fixed
+
+- Asset area background
+- Checkerboard for transparent images
+- Border for images
+- Sidebar site highlight
+- Improve shadow between tabs
+- Border around replicator panels
+
+---
+
 ## [0.1.10] - 2021-05-24
 
 ### Fixed
