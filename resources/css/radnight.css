@@ -146,6 +146,18 @@
         @apply bg-gray-900 border-l-0 border-r-0;
     }
 
+    .tabs .tab-button {
+        @apply bg-gray-800 border-gray-700;
+    }
+
+    .tabs .tab-button:focus {
+        @apply bg-gray-900;
+    }
+
+    .tabs .tab-button.active {
+        @apply bg-gray-900;
+    }
+
     .replicator-set-body {
         @apply border border-gray-700 shadow-light;
     }
