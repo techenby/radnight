@@ -535,6 +535,14 @@
         @apply text-gray-400 bg-gray-800 border-t border-b;
     }
 
+    .pagination li a:first-child {
+        @apply border-l;
+    }
+
+    .pagination li a:last-child {
+        @apply border-r;
+    }
+
     .pagination li.current a {
         @apply bg-gray-850;
     }
