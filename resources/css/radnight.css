@@ -532,7 +532,7 @@
     }
 
     .pagination li a {
-        @apply text-gray-400 bg-gray-800;
+        @apply text-gray-400 bg-gray-700;
     }
 
     .pagination li.current a {
@@ -544,6 +544,6 @@
     }
 
     .pagination li > .unclickable {
-        @apply text-gray-400 bg-gray-800;
+        @apply text-gray-400 bg-gray-700;
     }
 }
