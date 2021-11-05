@@ -510,4 +510,40 @@
     .video-fieldtype .video-preview {
         @apply bg-gray-900;
     }
+
+    .asset-editor {
+        @apply bg-gray-900;
+    }
+
+    .asset-editor .editor-meta {
+        @apply border-gray-700;
+    }
+
+    .asset-editor-meta-actions button:not(:first-child) {
+        @apply border-gray-700;
+    }
+
+    .asset-editor-meta-items .meta-label {
+        @apply text-gray-400;
+    }
+
+    .asset-editor .loading {
+        @apply bg-gray-900;
+    }
+
+    .pagination li a {
+        @apply text-gray-400 bg-gray-800;
+    }
+
+    .pagination li.current a {
+        @apply bg-gray-850;
+    }
+
+    .pagination li a:hover {
+        @apply text-gray-200 bg-gray-900;
+    }
+
+    .pagination li > .unclickable {
+        @apply text-gray-400 bg-gray-800;
+    }
 }
