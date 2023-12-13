@@ -1,5 +1,8 @@
 # Radnight
 
+> [!IMPORTANT]  
+> Looking for a new maintainer, if you're interested reach out!
+
 > Dark mode for Statamic 3 Control Panel.
 
 ## Installation
